@@ -1,0 +1,398 @@
+@charset "utf-8";
+
+/* <!--
+
+Author: Diana Jaime
+File name: OnePiece_Layout
+--> */
+
+html {
+	height: 100%;
+	font-size: 100%;
+}
+img, object, embed, video {
+	max-width: 100%;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+
+
+
+article {
+	width: 60%;
+	float: left;
+	font-size: 60%;
+	text-align: left;
+}
+
+nav ul li {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 1em;
+}
+
+nav ul li a {
+	color: #222;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 8%;
+}
+nav ul li a:visited {
+	color: #222;
+}
+nav ul li a:hover {
+	background-color: rgb(209,209,209);
+	color: black;
+}
+nav ul li a:focus {
+	outline: thin dotted;
+}
+nav ul li a:hover, nav ul li a:active {
+	outline: 0;
+}
+
+body h1 {
+	margin: 1%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 100%;
+}
+
+body article h1 {
+	font-size: 90%;
+}
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 2%;
+}
+figure img {
+	float: none;
+	width: 50%;
+	margin: 2% 2% 0% 2%;
+}
+
+body p, body address {
+	margin: 3.5% 1%;
+	font-size: 80%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	height: 100%;
+}
+
+footer {
+	text-align: center;
+	font-size: 70%;
+	margin-top: 4%;
+	border-top: 3px outset rgb(0,0,0);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+article aside h1 {
+	display: none;
+}
+section p {
+	font-size: 100%;
+}
+section img {
+	max-width: 80%;
+	display: block;
+	margin: auto;
+}
+section h1 {
+	font-size: 100%
+}
+section ol li {
+	font-size: 80%; 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+aside section img {
+	max-width: 30%;
+	float: center;
+}
+
+
+article p, article address {font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+
+/* =========================
+   Mobile Styles: 0 to 480px 
+   =========================
+*/
+
+@media only screen and (max-width: 480px){
+	body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: #F3F7D4;
+	-moz-box-shadow: rgba(255, 267, 173, 0.9) 20px 0px 25px,  rgba(255, 267, 173, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(255, 267, 173, 0.9) 20px 0px 25px,  rgba(255, 267, 173, 0.9) -20px 0px 25px;
+	box-shadow: rgba(255, 267, 173, 0.9) 20px 0px 25px,  rgba(255, 267, 173, 0.9) -20px 0px 25px;
+}
+}
+html {
+	background-color: #EE4450;
+	margin: 0px auto;
+}
+header h1 {
+   font-size: 2em;
+}
+body article h1 {
+   font-size: 2em;
+}
+body article p {
+	font-size: 1.5em;
+}
+body article ol li {
+	font-size: 1.5em;
+}
+
+
+body aside ul li {
+	font-size: 90%;
+}
+body aside p {
+	font-size: 80%;
+}
+Figcaption {
+	font-size: 100%;
+}
+
+article {
+	width: 94%;
+	float: none;
+	margin: 0px auto;
+}
+
+article img {
+	float: right;
+	width: 40%;
+	margin: 0% 2% 2% 2%;
+}
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgba(144,144,142,1.00);
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+article ul {
+	margin-top: -20px;
+}
+article aside {
+	float: right;
+	margin: 0 0 20px 20px;
+	padding: 1%;
+	border: 1px solid rgb(144,144,142);
+	width: 35%;
+	font-size: 0.9em;
+	background-color: #ffdcdb;
+}
+article aside h1 {
+	display: block;
+	font-size: 1em;
+	text-align: center;
+	border-bottom: 1px solid rgb(111, 111, 111);
+}
+article p {
+	font-size: 0.85em;
+	text-align: left;
+}
+footer {
+	font-size: 1.2em;
+}
+html {
+
+}
+
+/* =============================================
+	Tablet layout styles used by devices
+	481px to 768px and cascaded to larger 
+	devices.
+   =============================================
+*/
+
+@media only screen and (min-width: 481px) {
+html, body {
+	font-size: 100%;
+}
+
+body {
+	width: 89.9%;
+	padding-left: 1.55%;
+	padding-right: 1.55%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+header h1 {
+   font-size: 2em;
+}
+body article h1 {
+   font-size: 2em;
+}
+body article p {
+	font-size: 1.5em;
+}
+body article ol li {
+	font-size: 1.5em;
+}
+
+
+body aside ul li {
+	font-size: 90%;
+}
+body aside p {
+	font-size: 80%;
+}
+Figcaption {
+	font-size: 100%;
+}
+
+article {
+	width: 94%;
+	float: none;
+	margin: 0px auto;
+}
+
+article img {
+	float: right;
+	width: 40%;
+	margin: 0% 2% 2% 2%;
+}
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgba(144,144,142,1.00);
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+article ul {
+	margin-top: -20px;
+}
+article aside {
+	float: right;
+	margin: 0 0 20px 20px;
+	padding: 1%;
+	border: 1px solid rgb(144,144,142);
+	width: 35%;
+	font-size: 0.9em;
+	background-color: #ffdcdb;
+}
+article aside h1 {
+	display: block;
+	font-size: 1em;
+	text-align: center;
+	border-bottom: 1px solid rgb(111, 111, 111);
+}
+article p {
+	font-size: 0.85em;
+	text-align: left;
+}
+footer {
+	font-size: 1.2em;
+}
+html {
+	background-color: #EE4450;
+	margin: 0px auto;
+}
+
+body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: #F3F7D4;
+	-moz-box-shadow: rgba(255, 267, 173, 0.9) 20px 0px 25px,  rgba(255, 267, 173, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(255, 267, 173, 0.9) 20px 0px 25px,  rgba(255, 267, 173, 0.9) -20px 0px 25px;
+	box-shadow: rgba(255, 267, 173, 0.9) 20px 0px 25px,  rgba(255, 267, 173, 0.9) -20px 0px 25px;
+}
+}
+
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+
+@media only screen and (min-width: 769px) {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	background-color: #EE4450;
+	margin: 0px auto;
+}
+
+body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: #F3F7D4;
+	-moz-box-shadow: rgba(255, 267, 173, 0.9) 20px 0px 25px,  rgba(255, 267, 173, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(255, 267, 173, 0.9) 20px 0px 25px,  rgba(255, 267, 173, 0.9) -20px 0px 25px;
+	box-shadow: rgba(255, 267, 173, 0.9) 20px 0px 25px,  rgba(255, 267, 173, 0.9) -20px 0px 25px;
+}
+
+article p {
+	font-size: 0.95em;
+}
+
+}
